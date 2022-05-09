@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Application de gestion multi services",
+  "main": "server.js",
+  "author": "codeurabou",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.4",
+    "pg": "^8.7.3",
+    "puppeteer": "^13.7.0",
+    "sequelize": "^6.18.0",
+    "sequelize-cli": "^6.4.1"
+  },
+  "devDependencies": {
+    "@types/html-pdf": "^3.0.0"
+  }
+}

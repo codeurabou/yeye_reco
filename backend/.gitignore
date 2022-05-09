@@ -1,0 +1,3 @@
+# les fichiers sensibles a ignorés
+/node_modules
+.env
